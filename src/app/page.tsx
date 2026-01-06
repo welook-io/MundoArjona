@@ -397,7 +397,7 @@ export default function ProposalPage() {
                   <span className="text-gray-400">Incluido</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-500">10,000 créditos AI/mes</span>
+                  <span className="text-gray-500">Usage AI (~250 conversaciones promedio)</span>
                   <span className="text-gray-400">Incluido</span>
                 </div>
                 <div className="flex justify-between text-sm">
@@ -417,10 +417,10 @@ export default function ProposalPage() {
               <div className="pt-4 border-t border-gray-100">
                 <div className="flex justify-between items-baseline">
                   <span className="text-gray-900 font-medium">Total Mensual</span>
-                  <span className="text-2xl font-medium text-gray-900">$350 USD</span>
+                  <span className="text-2xl font-medium text-gray-900">$500 USD</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">
-                  Créditos excedentes: $0.02 USD c/u
+                  Usage adicional según consumo
                 </p>
               </div>
             </div>
@@ -440,7 +440,7 @@ export default function ProposalPage() {
               </div>
               <div>
                 <span className="text-gray-400">Mensual desde go-live</span>
-                <p className="text-gray-900 font-medium">$350 USD/mes</p>
+                <p className="text-gray-900 font-medium">$500 USD/mes</p>
               </div>
             </div>
           </div>
@@ -459,8 +459,8 @@ export default function ProposalPage() {
             </div>
             <div className="text-3xl text-gray-300">+</div>
             <div>
-              <p className="text-4xl font-medium text-gray-900">$350<span className="text-lg text-gray-400">/mes</span></p>
-              <p className="text-sm text-gray-400 mt-1">Operación (10,000 créditos AI incluidos)</p>
+              <p className="text-4xl font-medium text-gray-900">$500<span className="text-lg text-gray-400">/mes</span></p>
+              <p className="text-sm text-gray-400 mt-1">Operación (~250 conversaciones)</p>
             </div>
           </div>
         </section>
