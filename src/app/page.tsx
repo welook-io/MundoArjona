@@ -26,7 +26,7 @@ export default function ProposalPage() {
       <main className="max-w-4xl mx-auto px-6 pt-32 pb-24">
         {/* Hero Section */}
         <section className="mb-24">
-          <h1 className="font-serif text-5xl md:text-6xl text-gray-300 leading-tight mb-8">
+          <h1 className="text-5xl md:text-6xl text-gray-900 font-medium leading-tight mb-8">
             Implementación de Chat con IA
           </h1>
           
@@ -285,7 +285,7 @@ export default function ProposalPage() {
 
           <div className="space-y-8">
             <div className="flex gap-6">
-              <div className="text-2xl font-serif text-gray-300 w-8">1</div>
+              <div className="text-2xl font-medium text-gray-400 w-8">1</div>
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
                   <h3 className="font-medium text-gray-900">Kick-off y Configuración</h3>
@@ -299,7 +299,7 @@ export default function ProposalPage() {
             </div>
 
             <div className="flex gap-6">
-              <div className="text-2xl font-serif text-gray-300 w-8">2</div>
+              <div className="text-2xl font-medium text-gray-400 w-8">2</div>
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
                   <h3 className="font-medium text-gray-900">Desarrollo del Asistente</h3>
@@ -313,7 +313,7 @@ export default function ProposalPage() {
             </div>
 
             <div className="flex gap-6">
-              <div className="text-2xl font-serif text-gray-300 w-8">3</div>
+              <div className="text-2xl font-medium text-gray-400 w-8">3</div>
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
                   <h3 className="font-medium text-gray-900">Integración WhatsApp</h3>
@@ -327,7 +327,7 @@ export default function ProposalPage() {
             </div>
 
             <div className="flex gap-6">
-              <div className="text-2xl font-serif text-gray-300 w-8">4</div>
+              <div className="text-2xl font-medium text-gray-400 w-8">4</div>
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
                   <h3 className="font-medium text-gray-900">Testing y Capacitación</h3>
@@ -341,7 +341,7 @@ export default function ProposalPage() {
             </div>
 
             <div className="flex gap-6">
-              <div className="text-2xl font-serif text-gray-300 w-8">5</div>
+              <div className="text-2xl font-medium text-gray-400 w-8">5</div>
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
                   <h3 className="font-medium text-gray-900">Go-Live y Soporte</h3>
@@ -402,7 +402,7 @@ export default function ProposalPage() {
               <div className="pt-4 border-t border-gray-100">
                 <div className="flex justify-between items-baseline">
                   <span className="text-gray-900 font-medium">Total Setup</span>
-                  <span className="text-2xl font-medium text-gray-900">$2,500 USD</span>
+                  <span className="text-2xl font-medium text-gray-900">$3,500 USD</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">Pago único</p>
               </div>
@@ -453,11 +453,11 @@ export default function ProposalPage() {
             <div className="grid md:grid-cols-3 gap-4 text-sm">
               <div>
                 <span className="text-gray-400">50% - Firma del contrato</span>
-                <p className="text-gray-900 font-medium">$1,250 USD</p>
+                <p className="text-gray-900 font-medium">$1,750 USD</p>
               </div>
               <div>
                 <span className="text-gray-400">50% - Go-Live</span>
-                <p className="text-gray-900 font-medium">$1,250 USD</p>
+                <p className="text-gray-900 font-medium">$1,750 USD</p>
               </div>
               <div>
                 <span className="text-gray-400">Mensual desde go-live</span>
@@ -475,7 +475,7 @@ export default function ProposalPage() {
 
           <div className="flex flex-col md:flex-row gap-8 items-center justify-center text-center">
             <div>
-              <p className="text-4xl font-medium text-gray-900">$2,500</p>
+              <p className="text-4xl font-medium text-gray-900">$3,500</p>
               <p className="text-sm text-gray-400 mt-1">Setup único</p>
             </div>
             <div className="text-3xl text-gray-300">+</div>
@@ -543,22 +543,22 @@ export default function ProposalPage() {
 
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-3xl font-serif text-[#C41E3A] mb-2">↑</p>
+              <p className="text-3xl font-medium text-[#C41E3A] mb-2">↑</p>
               <p className="text-sm text-gray-900 font-medium">Conversión de ventas</p>
               <p className="text-xs text-gray-400 mt-1">Más paquetes vendidos</p>
             </div>
             <div>
-              <p className="text-3xl font-serif text-[#C41E3A] mb-2">24/7</p>
+              <p className="text-3xl font-medium text-[#C41E3A] mb-2">24/7</p>
               <p className="text-sm text-gray-900 font-medium">Atención continua</p>
               <p className="text-xs text-gray-400 mt-1">Sin perder oportunidades</p>
             </div>
             <div>
-              <p className="text-3xl font-serif text-[#C41E3A] mb-2">↓</p>
+              <p className="text-3xl font-medium text-[#C41E3A] mb-2">↓</p>
               <p className="text-sm text-gray-900 font-medium">Carga operativa</p>
               <p className="text-xs text-gray-400 mt-1">Equipo enfocado en ventas</p>
             </div>
             <div>
-              <p className="text-3xl font-serif text-[#C41E3A] mb-2">★</p>
+              <p className="text-3xl font-medium text-[#C41E3A] mb-2">★</p>
               <p className="text-sm text-gray-900 font-medium">Experiencia mejorada</p>
               <p className="text-xs text-gray-400 mt-1">Fans satisfechos</p>
             </div>

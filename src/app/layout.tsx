@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
 export const metadata: Metadata = {
   title: "Mundo Arjona | Propuesta Comercial - Kalia",
@@ -22,12 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet" />
-      </head>
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${GeistSans.className} antialiased`}>
         {children}
       </body>
     </html>
