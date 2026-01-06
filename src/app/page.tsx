@@ -250,9 +250,30 @@ export default function ProposalPage() {
                 <li>· Integración con sistemas de pago o ticketing</li>
                 <li>· Desarrollo de apps móviles nativas</li>
                 <li>· Diseño de marca o material gráfico</li>
-                <li>· Modificaciones post-firma del contrato</li>
               </ul>
+              <p className="text-xs text-gray-400 mt-6 italic">
+                Las mejoras y funcionalidades adicionales se cotizan y desarrollan a posteriori según necesidad.
+              </p>
             </div>
+          </div>
+
+          {/* Requisitos del Cliente */}
+          <div className="mt-12 p-6 bg-gray-50 rounded-lg">
+            <h3 className="font-medium text-gray-900 mb-4">Requisitos del Cliente</h3>
+            <ul className="space-y-3 text-sm text-gray-500">
+              <li className="flex items-start gap-2">
+                <span className="text-[#C41E3A] mt-0.5">✓</span>
+                Cuenta de WhatsApp Business verificada y lista para integración
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#C41E3A] mt-0.5">✓</span>
+                Número de teléfono dedicado para el asistente (no puede estar en uso en otro WhatsApp)
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#C41E3A] mt-0.5">✓</span>
+                Validación de WhatsApp Business API completada con Meta
+              </li>
+            </ul>
           </div>
         </section>
 
