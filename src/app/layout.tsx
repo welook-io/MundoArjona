@@ -10,6 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Mundo Arjona | Propuesta Comercial - Kalia",
   description: "Implementación de Chat con IA para la venta de paquetes VIP",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
