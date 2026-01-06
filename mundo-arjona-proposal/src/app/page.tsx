@@ -397,7 +397,7 @@ export default function ProposalPage() {
                   <span className="text-gray-400">Incluido</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-500">10,000 créditos AI/mes</span>
+                  <span className="text-gray-500">1,000 conversaciones AI/mes</span>
                   <span className="text-gray-400">Incluido</span>
                 </div>
                 <div className="flex justify-between text-sm">
@@ -420,7 +420,7 @@ export default function ProposalPage() {
                   <span className="text-2xl font-medium text-gray-900">$350 USD</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">
-                  Créditos excedentes: $0.02 USD c/u
+                  Conversaciones excedentes: $0.15 USD c/u
                 </p>
               </div>
             </div>
@@ -460,7 +460,7 @@ export default function ProposalPage() {
             <div className="text-3xl text-gray-300">+</div>
             <div>
               <p className="text-4xl font-medium text-gray-900">$350<span className="text-lg text-gray-400">/mes</span></p>
-              <p className="text-sm text-gray-400 mt-1">Operación (10,000 créditos AI incluidos)</p>
+              <p className="text-sm text-gray-400 mt-1">Operación (1,000 conv. incluidas)</p>
             </div>
           </div>
         </section>
